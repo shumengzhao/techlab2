@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <b>Quiz</b>
+    <br><br>
+    <form>
+    <center>
+        <p>Q 1) What colour is this l?</p>
+        <table width="200">
+            <tr>
+                <td>
+                    <input type="radio" name="radio" id="a1" value="a1" />
+                    Orange
+                </td>
+                <td>
+                    <input type="radio" name="radio" id="a2" value="a1" />
+                    White
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="radio" id="a3" value="a1" />
+                    Blue
+                </td>
+                <td>
+                    <input type="radio" name="radio" id="a4" value="a1" />
+                    Red
+                </td>
+            </tr>
+        </table>
+        <p>
+            <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit"
+                   onclick="fSubmit()" />
+    </center>
+    </form>
+    </p>
+    <script type="text/javascript">
+        function fSubmit() {
+                    var correctanswer = document.getElementById("a3")
+                        if (correctanswer.checked === true) {
+                            alert("Correct!")
+                        }
+                        else {
+                            alert("Incorrect!")
+                        }
+                    }
+    </script>
+</body>
+</html>
