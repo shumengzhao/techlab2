@@ -4,30 +4,31 @@
     <title></title>
 </head>
 <body>
-    <b>Quiz</b>
+    <p>Quiz</p>
     <br><br>
-    <form>
+    <p>If you know how to feed bear, you would get a bear in your e-zoo.</p>
+  
     <center>
-        <p>Q 1) What colour is this l?</p>
+        <p>Q 1) What is the main food for bear?</p>
         <table width="200">
             <tr>
                 <td>
                     <input type="radio" name="radio" id="a1" value="a1" />
-                    Orange
+                    Plant
                 </td>
                 <td>
                     <input type="radio" name="radio" id="a2" value="a1" />
-                    White
+                    Banboo
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="radio" name="radio" id="a3" value="a1" />
-                    Blue
+                    Fish
                 </td>
                 <td>
                     <input type="radio" name="radio" id="a4" value="a1" />
-                    Red
+                    Monkey
                 </td>
             </tr>
         </table>
@@ -35,18 +36,37 @@
             <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit"
                    onclick="fSubmit()" />
     </center>
-    </form>
+   
     </p>
+
     <script type="text/javascript">
+        
         function fSubmit() {
-                    var correctanswer = document.getElementById("a3")
+                    var correctanswer = document.getElementById("a1")
                         if (correctanswer.checked === true) {
-                            alert("Correct!")
+                            add_image();
                         }
                         else {
                             alert("Incorrect!")
                         }
                     }
+
+
+        function add_image() {
+        var src = "1.jpg";
+        show_image("1.jpg", 500,300, "image");
+    }
+
+
+    function show_image(src, width, height, alt) {
+        var img = document.createElement("img");
+        img.src = src;
+        img.width = width;
+        img.height = height;
+        img.alt = alt;
+        document.body.appendChild(img);
+    }
+
     </script>
 </body>
 </html>
