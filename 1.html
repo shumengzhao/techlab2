@@ -1,5 +1,5 @@
  <!DOCTYPE html>
-<html >
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
 </head>
@@ -38,13 +38,14 @@
     </center>
    
     </p>
+    <img id="blank" src="1.png" alt="img01">
 
     <script type="text/javascript">
         
         function fSubmit() {
                     var correctanswer = document.getElementById("a1")
                         if (correctanswer.checked === true) {
-                            add_image();
+                            changeImage(this);
                         }
                         else {
                             alert("Incorrect!")
@@ -66,6 +67,12 @@
         img.alt = alt;
         document.body.appendChild(img);
     }
+
+function changeImage(img) {
+     document.getElementById("blank").src = "1.jpg";
+}
+
+
 
     </script>
 </body>
