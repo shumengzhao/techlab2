@@ -13,7 +13,7 @@
 
 
 function changeImagea(img) {
-     document.getElementById("blanka").src = "imgs/2.png";
+     document.getElementById("blanka").src = "imgs/a.png";
      
 }
 
@@ -30,7 +30,24 @@ function changeImagea(img) {
 
                     }
 function changeImageb(img) {
-     document.getElementById("blankb").src = "imgs/3.png";
+     document.getElementById("blankb").src = "imgs/e.png";
+     
+}
+
+ function fSubmitc() {
+                    var correctanswer = document.getElementById("c3" )
+                        if (correctanswer.checked === true) {
+                            changeImagec(this);
+
+                        }
+                        else {
+                            alert("Incorrect!")
+                        }
+                  
+
+                    }
+function changeImagec(img) {
+     document.getElementById("blankc").src = "imgs/e.png";
      
 }
 
