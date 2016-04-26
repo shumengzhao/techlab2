@@ -1,7 +1,7 @@
         function fSubmita() {
                     var correctanswer = document.getElementById("a1" )
                         if (correctanswer.checked === true) {
-                            changeImage_a(this);
+                            changeImagea(this);
 
                         }
                         else {
@@ -12,7 +12,7 @@
                     }
 
 
-function changeImage_a(img) {
+function changeImagea(img) {
      document.getElementById("blanka").src = "imgs/2.png";
      
 }
@@ -20,7 +20,7 @@ function changeImage_a(img) {
  function fSubmitb() {
                     var correctanswer = document.getElementById("b2" )
                         if (correctanswer.checked === true) {
-                            changeImage_b(this);
+                            changeImageb(this);
 
                         }
                         else {
@@ -29,27 +29,8 @@ function changeImage_a(img) {
                   
 
                     }
-function changeImage_b(img) {
+function changeImageb(img) {
      document.getElementById("blankb").src = "imgs/3.png";
-     
-}
-
-
-
-function fSubmitc() {
-                    var correctanswer = document.getElementById("c3" )
-                        if (correctanswer.checked === true) {
-                            changeImagec(this);
-
-                        }
-                        else {
-                            alert("Incorrect!")
-                        }
-                  
-
-                    }
-function changeImagec(img) {
-     document.getElementById("blankc").src = "imgs/4.png";
      
 }
 
