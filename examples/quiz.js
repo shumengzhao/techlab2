@@ -30,7 +30,7 @@ function changeImagea(img) {
 
                     }
 function changeImageb(img) {
-     document.getElementById("blankb").src = "imgs/e.png";
+     document.getElementById("blankb").src = "imgs/c.png";
      
 }
 

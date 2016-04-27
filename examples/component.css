@@ -1,5 +1,6 @@
 .grid {
-	padding: 20px 20px 100px 20px;
+	top: 50%;
+	left: 50%;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -41,9 +42,7 @@
 	color: #fff;
 }
 
-.grid figcaption span:before {
-	content: 'by ';
-}
+
 
 .grid figcaption table {
 	text-align: center;
@@ -62,9 +61,9 @@
 	color: #fff;
 }
 
-/* Individual Caption Styles */
 
-/* Caption Style 1 */
+
+
 .cs-style-1 figcaption {
 	height: 100%;
 	width: 100%;
@@ -81,10 +80,10 @@
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
 	opacity: 1;
-	-webkit-transform: translate(15px, 15px);
-	-moz-transform: translate(15px, 15px);
-	-ms-transform: translate(15px, 15px);
-	transform: translate(15px, 15px);
+	-webkit-transform: translate(20px, 20px);
+	-moz-transform: translate(20px, 20px);
+	-ms-transform: translate(20px, 20px);
+	transform: translate(20px, 20px);
 }
 
 .cs-style-1 figcaption h3 {
@@ -98,6 +97,7 @@
 .cs-style-1 figcaption a {
 	margin-top: 30px;
 }
+
 
 
 @media screen and (max-width: 31.5em) {

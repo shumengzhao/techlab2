@@ -33,7 +33,7 @@
 	          	direction: 'horizontal',
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4','page5'],
-			    sectionsColor: ['white', '#ee005a', '#2C3E50', '#39C','white'],
+			    sectionsColor: ['#20c6e7', '#c5e4d2', '#f8b7b1', '#6bc498','#E6B098'],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4','Page5']
@@ -54,33 +54,32 @@
 
 
     <style>
-	#section1 img{
-		margin: 20px 0;
-		opacity: 0.7;
-	}
-	/* colors
+
 	
 
 </style>
 
 </head>
 <body>
+
+
 	<ul id="menu">
-		<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
-		<li data-menuanchor="page4"><a href="#page4">Page 4</a></li>
-		<li data-menuanchor="page5"><a href="#page5">Page 5</a></li>
+	<img src="imgs/animals.png" />
+		<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Seal</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Mallard duck</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Squirrel</a></li>
+		<li data-menuanchor="page5"><a href="#page5">End</a></li>
 	</ul>
 
 
 	<div id="pagepiling">
 	    <div class="section" id="section1">
-	    	<img src="imgs/pagePiling-plugin.gif" alt="pagePiling" />
+	    	
 			<br />
 
-	    	<h1>Horizontal Scrolling</h1>
-			<p>pagePiling does it easy for you</p>
+	    	<h1>Start to build your zoo</h1>
+			<p>Slide your mouse</p>
 
 	    </div>
 
@@ -92,27 +91,27 @@
 					<figure>
 						<img id="blanka" src="imgs/a1.jpg" alt="a1">
 						<figcaption>
-							<h3>If you know how to feed bear, you would get a bear in your e-zoo.</h3>
-							<span>Q 1) What is the main food for bear?</span>
+							<h3>If you know where the seal moults, you would get a seal in your e-zoo.</h3>
+							<span>Q What is not the area for seal moulting?</span>
 							<table width="200">
             <tr>
                 <td>
                     <input type="radio" name="radio" id="a1" value="a1" />
-                    Plant
+                    Sea
                 </td>
                 <td>
                     <input type="radio" name="radio" id="a2" value="a1" />
-                    Banboo
+                    Rock
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="radio" name="radio" id="a3" value="a1" />
-                    Fish
+                    Ice
                 </td>
                 <td>
                     <input type="radio" name="radio" id="a4" value="a1" />
-                    Monkey
+                    Beach
                 </td>
             </tr>
         </table>
@@ -127,6 +126,7 @@
 				</li>
 	         </ul>
         </div>
+        <img src="imgs/sea.png" style="z-index: 1;position:absolute;left: 3%;top: 55% ">
     </div>
 	    
 
@@ -137,27 +137,28 @@
 					<figure>
 						<img id="blankb" src="imgs/c1.jpg" alt="img02">
 						<figcaption>
-                            <h3>If you know how to feed bear, you would get a bear in your e-zoo.</h3>
-							<span>Q 1) What is the main food for bear?</span>
+                            <h3>If you know when the mallard duck forage, you would get the duck in your e-zoo.</h3>
+
+							<span>Q What is the right time for mallard duck foraging?</span>
 							<table width="200">
             <tr>
                 <td>
                     <input type="radio" name="radio" id="b1" value="b1" />
-                    Plant
+                    Noon
                 </td>
                 <td>
                     <input type="radio" name="radio" id="b2" value="b1" />
-                    Banboo
+                    Morning
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="radio" name="radio" id="b3" value="b1" />
-                    Fish
+                    Night
                 </td>
                 <td>
                     <input type="radio" name="radio" id="b4" value="b1" />
-                    Monkey
+                    Afternoon
                 </td>
             </tr>
         </table>
@@ -171,6 +172,7 @@
 				</li>
 		    </ul>
 	    	</div>
+	    	 <img src="imgs/lake.png" style="z-index: 1;position:absolute;left: 60%;top: 20% ;">
 	    </div>
 	    
 
@@ -182,13 +184,13 @@
 					<figure>
 						<img id="blankc" src="imgs/e1.png" alt="img03">
 						<figcaption>
-                            <h3>If you know how to feed bear, you would get a bear in your e-zoo.</h3>
-							<span>Q 1) What is the main food for bear?</span>
+                            <h3>If you know how to feed squirrel, you would get a squirrel in your e-zoo.</h3>
+							<span>Q 1) What is the main food for squirrel?</span>
 							<table width="200">
             <tr>
                 <td>
                     <input type="radio" name="radio" id="c1" value="c1" />
-                    Plant
+                    Grass
                 </td>
                 <td>
                     <input type="radio" name="radio" id="c2" value="c1" />
@@ -198,11 +200,11 @@
             <tr>
                 <td>
                     <input type="radio" name="radio" id="c3" value="c1" />
-                    Fish
+                    Seed
                 </td>
                 <td>
                     <input type="radio" name="radio" id="c4" value="c1" />
-                    Monkey
+                    Warm
                 </td>
             </tr>
         </table>
@@ -216,12 +218,13 @@
 
 		    </ul>
 	    	</div>
+              <img src="imgs/tree.png" style="z-index: 1;position:absolute;left: 15%;top: 70% ">
 	    </div>
 	    
 	    <div class="section" id="section5">
 	    	<div class="intro">
-	    		<h1>Isn't it great?</h1>
-	    		<p>Just as you expected!</p>
+	    		<h1>Keep Taking Care of Animals</h1>
+	    		<p>Wait for More Themes!</p>
 	    		
 	    	</div>
 	    </div>
