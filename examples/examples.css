@@ -101,6 +101,8 @@ body{
             border-radius: 10px;
 
 }
+
+
 #menu li.active{
 	background:#666;
 	background: rgba(0,0,0, 0.5);
@@ -136,9 +138,8 @@ body{
 }
 #menu img{
 	padding-top: 10px;
+	
 }
-
-
 
 
 /* Section 1
